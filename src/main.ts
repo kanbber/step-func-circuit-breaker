@@ -17,7 +17,7 @@ const devEnv = {
 
 const app = new App();
 
-new MyStack(app, 'step-func-circuit-breaker-dev', { env: devEnv });
-// new MyStack(app, 'step-func-circuit-breaker-prod', { env: prodEnv });
+new MyStack(app, 'temo-dev', { env: devEnv });
+// new MyStack(app, 'temo-prod', { env: prodEnv });
 
 app.synth();
